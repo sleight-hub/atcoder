@@ -7,7 +7,7 @@ int main() {
   cin >> a;
 
   int ans = 0;
-  for (int i = 2; i * i <= a; i++) {
+  for (int i = 2; i <= sqrt(a); i++) {
     int now = i;
 
     // p^eで割っていく
