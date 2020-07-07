@@ -11,9 +11,5 @@ int main() {
   } else {
     cout << 2 * n << endl;
   }
-
-  int ans = 0;
-
-  cout << ans << endl;
   return 0;
 }
